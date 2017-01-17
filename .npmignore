@@ -32,3 +32,4 @@ bin
 project.lock.json
 webpack.*
 Properties
+tsconfig.json

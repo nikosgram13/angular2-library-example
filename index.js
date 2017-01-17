@@ -12,18 +12,18 @@ var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var test_component_1 = require("./src/components/test.component");
 __export(require("./src/components/test.component"));
-var SampleModule = SampleModule_1 = (function () {
-    function SampleModule() {
+var RootModule = RootModule_1 = (function () {
+    function RootModule() {
     }
-    SampleModule.forRoot = function () {
+    RootModule.forRoot = function () {
         return {
-            ngModule: SampleModule_1,
+            ngModule: RootModule_1,
             providers: []
         };
     };
-    return SampleModule;
+    return RootModule;
 }());
-SampleModule = SampleModule_1 = __decorate([
+RootModule = RootModule_1 = __decorate([
     core_1.NgModule({
         imports: [
             common_1.CommonModule
@@ -35,7 +35,7 @@ SampleModule = SampleModule_1 = __decorate([
             test_component_1.TestComponent
         ]
     })
-], SampleModule);
-exports.SampleModule = SampleModule;
-var SampleModule_1;
+], RootModule);
+exports.RootModule = RootModule;
+var RootModule_1;
 //# sourceMappingURL=index.js.map

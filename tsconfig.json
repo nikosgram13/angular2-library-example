@@ -10,6 +10,6 @@
     "types": [ "node" ],
     "declaration": true
   },
-  "exclude": [ "bin", "node_modules", "src/app/app/app.component.ts", "src/boot-client.ts", "src/boot-server.ts", "src/app/app.module.ts" ],
+  "exclude": [ "bin", "node_modules", "src/app/**/*.ts", "src/*.ts" ],
   "atom": { "rewriteTsconfig": false }
 }

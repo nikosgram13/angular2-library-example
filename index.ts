@@ -2,7 +2,6 @@
 import {CommonModule} from "@angular/common";
 import {TestComponent} from "./src/components/test.component";
 
-
 export * from "./src/components/test.component";
 
 @NgModule({
@@ -16,10 +15,10 @@ export * from "./src/components/test.component";
         TestComponent
     ]
 })
-export class SampleModule {
+export class RootModule {
     static forRoot(): ModuleWithProviders {
         return {
-            ngModule: SampleModule,
+            ngModule: RootModule,
             providers: []
         };
     }
