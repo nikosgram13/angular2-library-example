@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Parent", "Parent.xproj", "{3D6586EB-31E7-4AE1-A170-621444EE6C93}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Child", "..\Child\Child.xproj", "{CA65EDC2-942C-43D0-AAA5-C2B27FF51986}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ChildAnother", "..\ChildAnother\ChildAnother.xproj", "{A17CA0C8-5552-4F65-B5F9-52D0B0FA845E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D6586EB-31E7-4AE1-A170-621444EE6C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6586EB-31E7-4AE1-A170-621444EE6C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6586EB-31E7-4AE1-A170-621444EE6C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6586EB-31E7-4AE1-A170-621444EE6C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA65EDC2-942C-43D0-AAA5-C2B27FF51986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65EDC2-942C-43D0-AAA5-C2B27FF51986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65EDC2-942C-43D0-AAA5-C2B27FF51986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65EDC2-942C-43D0-AAA5-C2B27FF51986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17CA0C8-5552-4F65-B5F9-52D0B0FA845E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17CA0C8-5552-4F65-B5F9-52D0B0FA845E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17CA0C8-5552-4F65-B5F9-52D0B0FA845E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17CA0C8-5552-4F65-B5F9-52D0B0FA845E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
